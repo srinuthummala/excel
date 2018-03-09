@@ -10,7 +10,7 @@ public class Excel {
 	public static void main(String[] args) throws Exception {
 		
 		// File file = new File("C:/Users/CHOWDARY/Desktop/sample.xlsx");
-		// file.createNewFile();
+		
 		try {
 			XSSFWorkbook workbook = new XSSFWorkbook();
 			FileOutputStream file = new FileOutputStream(new File("C:/Users/CHOWDARY/Desktop/sample.xlsx"));
